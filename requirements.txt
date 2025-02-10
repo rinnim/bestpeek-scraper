@@ -1,0 +1,6 @@
+beautifulsoup4>=4.12.0 # for scraping data
+bs4 # for scraping data
+requests>=2.31.0 # for sending request to backend
+lxml>=4.9.0 # for better xml 
+apscheduler # for scheduling the task
+python-dotenv
