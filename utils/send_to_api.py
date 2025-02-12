@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from .http_utils import fetch_html
 from dotenv import load_dotenv
 
-def process_product_url(url, parse_function):
+def send_to_api(url, parse_function):
     """Fetch and process product data from a URL."""
     try:
         # Load environment variables

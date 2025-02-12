@@ -6,7 +6,7 @@ from scripts.load_from_techland import load_from_techland
 
 
 def print_menu():
-    print("\nSmart Buy Scraper")
+    print("\nBestPeek Scraper")
     print("----------------")
     print("1. Load from Techland")
     print("2. Load from Skyland") 

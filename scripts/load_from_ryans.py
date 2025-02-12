@@ -2,7 +2,7 @@ import concurrent.futures
 import os
 from dotenv import load_dotenv
 from utils.http_utils import get_urls_of_xml
-from utils.product_processor import process_product_url
+from utils.send_to_api import send_to_api
 from utils.product_utils import get_brand_from_name, remove_brand_from_model, set_prices
 from functools import partial
 import time
@@ -128,7 +128,7 @@ def load_from_ryans():
     # Limit to the first 1000 URLs for testing
     # links_data_arr = links_data_arr[:1000]
     
-    process_with_parser = partial(process_product_url, parse_function=parse_ryans_product)
+    process_with_parser = partial(send_to_api, parse_function=parse_ryans_product)
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=128) as executor:
         executor.map(process_with_parser, links_data_arr)

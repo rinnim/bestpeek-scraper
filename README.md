@@ -48,7 +48,6 @@ The following environment variables can be configured in `.env`:
 - `STARTECH_SITEMAP_URL`: Sitemap URL for Startech
 - `RYANS_SITEMAP_URL`: Sitemap URL for Ryans
 - `TECHLAND_SITEMAP_URL`: Sitemap URL for Techland 
-- `BINARYLOGIC_SITEMAP_URL`: Sitemap URL for Binary Logic
 - `SKYLAND_SITEMAP_URL`: Sitemap URL for Skyland
 - `SCHEDULE_HOUR`: Schedule Hour (UTC Time Hour)
 - `SCHEDULE_MINUTE`: Schedule Minute (UTC Time Minute)

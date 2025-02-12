@@ -14,8 +14,8 @@ def fetch_html(url):
 
 def get_urls_of_xml(xml_url):
     """Retrieve URLs from an XML sitemap."""
-    html = fetch_html(xml_url)
-    if html:
-        soup = BeautifulSoup(html, features="xml")
+    sitemap = fetch_html(xml_url)
+    if sitemap:
+        soup = BeautifulSoup(sitemap, features="xml")
         return [link.getText() for link in soup.findAll('loc')]
     return []

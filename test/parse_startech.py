@@ -8,7 +8,7 @@ def test_parse_product():
     # url = "https://www.startech.com.bd/apple-macbook-pro-16-inch-m3-pro"
     # url = 'https://www.startech.com.bd/avita-liber-v14-core-i5-11th-gen-laptop-anchor-grey'
     # url = 'https://www.startech.com.bd/lenovo-ideapad-flex-5-14alc7-amd-ryzen-7-laptop'
-    url = 'https://www.startech.com.bd/amd-ryzen-5-pro-4650g-processor'
+    url = 'https://www.startech.com.bd/lenovo-thinkpad-bluetooth-silent-mouse'
     
     # Fetch and parse HTML
     html = fetch_html(url)
