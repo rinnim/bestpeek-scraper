@@ -40,7 +40,7 @@ Web Scraper for BestPeek
 1. Start the scraper
    ```bash
    python main.py
-   ``
+   ```
 ## Configuration
 The following environment variables can be configured in `.env`:
 
